@@ -12,22 +12,21 @@ import Hero from '../components/Hero';
         <title>Calin Portfolio</title>
       </Head>
       
-    {/* Header */}
-    <Header />
+      <Header />
 
-    {/* Hero */}
-    <section id='hero' className='snap-center'>
-      <Hero />
-    </section>
-    {/* About */}
+       {/* Hero */}
+      <section id='hero' className='snap-center'>
+        <Hero />
+      </section>
+      {/* About */}
 
-    {/* Experience */}
+      {/* Experience */}
 
-    {/* Skills */}
+      {/* Skills */}
 
-    {/* Projects */}
+      {/* Projects */}
 
-    {/* Contact Me */}
+      {/* Contact Me */}
     </div>
   )
 }
