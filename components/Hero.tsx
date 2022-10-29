@@ -3,13 +3,13 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
 
 
-type Props = {}
+type Props = {};
 
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-     "Hi, My Name's Calin Petrut",
-     "A-guy-who-loves-making-Craft-Cocktails",
+      "Hi, My Name's Calin Petrut",
+      "A-guy-who-loves-making-Craft-Cocktails",
       "{But.Loves.To.Code.More}",
     ],
     loop: true,
@@ -17,7 +17,7 @@ export default function Hero({}: Props) {
   });
 
   return (
-    <div>
+    <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircles /> 
       <h1> 
         <span>{text}</span>
